@@ -1,0 +1,241 @@
+@import '../../assets/styles/settings';
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+
+    .about-container {
+
+        .about-wrapper {
+            width: 100%;
+            height: 750px;
+            position: relative;
+            top: 500px;
+
+            .about-bgImage {
+                background: url(../../assets/images/About-Rectangle-4.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-blend-mode: darken;
+                background-color: rgba(0, 0, 0, 0.3);
+                height: 749px;
+                width: 1071px;
+                border-radius: 0px 10px 10px 0px;
+
+                @media screen and (max-width: 1080px) {
+                    width: 700px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 450px;
+                }
+            }
+
+            .about-text {
+                font-size: 14px;
+                position: absolute;
+                top: 144px;
+                width: 542px;
+                height: 476px;
+                left: 738px;
+                border-radius: 10px;
+                background-color: $gray-2;
+                border-radius: 10px;
+                padding: 70px;
+
+                @media screen and (max-width: 1080px) {
+                    left: 450px;
+                    padding: 50px;
+                    font-size: 16px;
+                    height: auto;
+                }
+
+                @media screen and (min-width: 600px) and (max-width: 768px) {
+                    left: 30px;
+                    padding: 30px;
+                    font-size: 16px;
+                }
+
+                @media screen and (max-width: 800px) {
+                    left: 220px;
+                    padding: 30px;
+                    font-size: 16px;
+                    height: auto;
+                }
+
+                h2 {
+                    color: $lightBlue;
+                    margin-bottom: 40px;
+                    margin-left: 30px;
+                }
+
+                p {
+                    margin: 20px;
+                }
+            }
+
+        }
+
+        @media scren and (max-width: 1080px) {
+            width: 100%;
+        }
+
+    }
+
+    .carousel {
+        position: relative;
+        top: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .values-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 400px;
+
+        h2 {
+            color: $lightBlue;
+            margin-bottom: 70px;
+            margin-left: 370px;
+
+            @media screen and (max-width: 1080px) {
+                margin-left: 430px;
+            }
+        }
+
+        .value-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 60px;
+            margin: 0 auto;
+
+            button {
+                @extend %info-btn;
+                position: relative;
+            }
+
+            p {
+                width: 600px;
+                text-align: center;
+            }
+
+            @media screen and (max-width: 770px) {
+                font-size: 16px;
+                position: absolute;
+                left: 20px;
+            }
+
+            @media screen and (min-width: 1000px) and (max-width:1080px) {
+                font-size: 18px;
+                position: absolute;
+                left: 180px;
+            }
+            @media screen and (min-width: 1081px) and (max-width:1400px) {
+                font-size: 18px;
+                position: absolute;
+                left: 310px;
+                margin-top: 10px;
+            }
+
+        }
+
+        .values-content {
+            width: 600px;
+            margin-left: 300px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+
+            padding-left: 40px;
+
+            @media screen and (max-width: 770px) {
+                margin-left: 0px;
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            @media screen and (min-width: 1000px) and (max-width:1080px) {
+                margin-left: 0px;
+                font-size: 18px;
+            }
+            @media screen and (min-width: 1081px) and (max-width:1400px) {
+                margin-left: 0;
+                font-size: 18px;
+            }
+
+        }
+
+        .value-item {
+            width: 590px;
+            display: flex;
+
+            @media screen and (min-width: 1000px) and (max-width: 1080px) {
+                width: 490px;
+            }
+
+            @media screen and (max-width: 770px) {
+                width: 100%;
+            }
+
+
+
+
+
+            img {
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+
+            div {
+                padding-top: 30px;
+
+                h2 {
+                    color: $lightBlue;
+                    margin-bottom: 100px;
+                    margin-left: 30px;
+                }
+
+                p {
+                    line-height: 20px;
+                }
+
+            }
+
+        }
+    }
+
+    .gallery-divs {
+        width: 100%;
+        position: relative;
+        top: 1100px;
+        margin: 0 auto;
+    }
+
+    .carousel-2 {
+        width: 100%;
+        position: relative;
+        top: 420px;
+        margin: 0 auto;
+    }
+    .contacts-form {
+        width: 100%;
+        position: relative;
+        top: 2000px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        background-color: lightgray;
+        width: 100%;
+        position: relative;
+        top: 1580px;
+        margin: 0 auto;
+    }
+
+}
