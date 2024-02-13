@@ -21,8 +21,8 @@ $small-screen: 600px;
 %warning-btn {
     @extend %btn;
     padding: 10px 35px;
-    background-color: $lightBlue;
-    border: 2px solid $lightBlue;
+    background-color: blue;
+    border: 2px solid aqua;
     color: snow;
 
     
@@ -35,9 +35,9 @@ $small-screen: 600px;
 %info-btn {
     @extend %btn;
     padding: 10px 20px;
-    background-color: $lightBlue;
+    background-color: blue;
     border: none;
-    color: snow;
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     width: 300px;
     height: 45px;
