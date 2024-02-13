@@ -17,8 +17,8 @@ export default function GalleryDiv() {
                     <div className="price">
                         <b>Стоимость</b>
                         <br /><br /><div className="input">
-                            <input type="text" value={"1600"} />
-                            <input type="text" value={'4000'} />
+                            <input type="text" value={"5600.сум"} />
+                            <input type="text" value={'5600.cум'} />
                         </div>
                         <div className="range">
                             <br /><br /><input type="range" />
@@ -29,41 +29,41 @@ export default function GalleryDiv() {
                         <h3>Количество человек</h3>
 
                         <div>
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
-                            <input type="text" value={"1 чел."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
+                            <input type="text" value={"1 одам боши."} />
                         </div>
                     </div>
                     <hr />
                     <div className="radio-input">
                         <b>Место</b>
                         <div>
-                            <input type="radio" name="city" checked />
-                            <label htmlFor="">Абхазия</label>
+                            <input type="checkbox" name="city" checked />
+                            <label htmlFor="">Toshkent</label>
                         </div>
                         <div>
-                            <input type="radio" />
-                            <label htmlFor="">Америка</label>
+                            <input type="checkbox" />
+                            <label htmlFor="">Америка через Мексико </label>
                         </div>
                         <div>
-                            <input type="radio" />
-                            <label htmlFor="">Сочи</label>
+                            <input type="checkbox" />
+                            <label htmlFor="">Самарканд</label>
                         </div>
                         <div>
-                            <input type="radio" />
-                            <label htmlFor="">Адлер</label>
+                            <input type="checkbox" />
+                            <label htmlFor="">Наваи</label>
                         </div>
                         <div>
-                            <input type="radio" />
-                            <label htmlFor="">Адлер</label>
+                            <input type="checkbox" />
+                            <label htmlFor="">Жизах</label>
                         </div>
                     </div>
                     <br />
