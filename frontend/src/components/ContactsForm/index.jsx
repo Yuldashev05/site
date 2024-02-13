@@ -26,9 +26,9 @@ function ContactsForm() {
     }
     function submit(e) {
         e.preventDefault()
-        emailjs.send('service_xinacul', 'template_ueenjoe', templateParams, 'FwV8l55HZ3qmCRsdq')
+        emailjs.send('service_t35khs8', 'template_5knv0f9', templateParams, 'MXItHgY4gViDwPJ7m')
             .then((response) => {
-                toast.success(`Successfully sent!`, {
+                toast.success(`o xорош насиб утасан`, {
                     theme: "dark"
                 })
             }, (err) => {
