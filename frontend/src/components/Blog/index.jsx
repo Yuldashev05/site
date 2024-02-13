@@ -24,30 +24,30 @@ function Blog() {
                </div>
                <div className="small-text">
                     <span className="span" id="span-1">
-                         АВТОБУСНЫЙ
+                         На ишаке
                     </span>
                     <span className="span">
-                         ДЖИППИНГ
+                         Пешком
                     </span>
                     <span className="span">
-                         ЯХТИНГ
+                         На велике
                     </span>
                     <span className="span">
-                         КАНЬОНИНГ
+                         Как хотите
                     </span> 
                </div>
                <div className="blog-wrapper">
                     <div className="input-btn">
                          <div className="input">
-                              <input type="text" name="" value={"Абхазия"} id="county" />
+                              <input type="text" name="" value={"Самарканд"} id="county" />
                               <img src={geolocationImg} alt="" width={23} height={28} />
                          </div>
                          <div className="input">
-                              <input type="text" name="" value={"2022-07-16"} id="date" />
+                              <input type="text" name="" value={"2005-05-05"} id="date" />
                               <img src={calendarImg} alt="" width={23} height={23} />
                          </div>
                          <div className="input">
-                              <input type="text" name="" id="people" value={"5 человек"} />
+                              <input type="text" name="" id="people" value={"1 человек"} />
                               <img src={peopleImg} alt="" width={23} height={23} />
                          </div>
                          <button className="info-btn">Показать</button>
@@ -65,8 +65,8 @@ function Blog() {
                                         <h3>Стоимость</h3> <span>-</span>
                                    </div>
                                    <div className="input">
-                                        <input type="text" value={"1600"} />
-                                        <input type="text" value={'4000'} />
+                                        <input type="text" value={"5.600 сум"} />
+                                        <input type="text" value={'5.600 сум'} />
                                    </div>
                                    <input className="range" type="range" />
                                    <hr />
@@ -77,16 +77,16 @@ function Blog() {
                                    </div>
                                    <div className="div">
                                         <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
-                                        <input type="text" value={"1 чел."} />
+                                        <input type="text" value={"2 чел."} />
+                                        <input type="text" value={"3 чел."} />
+                                        <input type="text" value={"4 чел."} />
+                                        <input type="text" value={"5 чел."} />
+                                        <input type="text" value={"6 чел."} />
+                                        <input type="text" value={"7 чел."} />
+                                        <input type="text" value={"8 чел."} />
+                                        <input type="text" value={"9 чел."} />
+                                        <input type="text" value={"10 чел."} />
+                                        <input type="text" value={"10+ чел."} />
                                    </div>
                               </div>
                               <div className="radio-input">
@@ -95,24 +95,24 @@ function Blog() {
                                         <h3>Место</h3> <span>-</span>
                                    </div>
                                    <div>
-                                        <input type="radio" name="city" checked />
-                                        <label >Абхазия</label>
+                                        <input type="checkbox" name="city" checked />
+                                        <label ></label>
                                    </div>
                                    <div>
-                                        <input type="radio" />
-                                        <label >Америка</label>
+                                        <input type="checkbox" />
+                                        <label >Америка через Мексико</label>
                                    </div>
                                    <div>
-                                        <input type="radio" />
-                                        <label >Сочи</label>
+                                        <input type="checkbox" />
+                                        <label >Самарканд</label>
                                    </div>
                                    <div>
-                                        <input type="radio" />
-                                        <label >Адлер</label>
+                                        <input type="checkbox" />
+                                        <label >Жизах</label>
                                    </div>
                                    <div>
-                                        <input type="radio" />
-                                        <label >Адлер</label>
+                                        <input type="checkbox" />
+                                        <label >Москва </label>
                                    </div>
                                    <hr />
                               </div>
@@ -124,12 +124,7 @@ function Blog() {
                                    <h3>Дата</h3> <span>+</span>
                               </div>
                               <hr />
-                              <button className="info-btn">Pokazat</button>
-
-                              <div className="bottom-text">
-                                   <span>&times;</span>
-                                   <h3>сбросить фильтр</h3>
-                              </div>
+                              
                          </div>
                     </div>
 
